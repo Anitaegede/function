@@ -29,7 +29,7 @@ function addition(){
     let m = "3 plus 9 is :"+add
     console.log(m)
 }
-addition()
+ addition()
 function subtrction(){
     let a =7
     let b =4
@@ -46,3 +46,26 @@ function division(){
     console.log(mes)
 }
 division()
+function multiplication (a,b){
+    let mul=a*b
+    console.log(mul)
+   return mul
+}
+ let mu =multiplication(8,3)
+ console.log(mu)
+function plus (c,d){
+    let t=c+d
+    console.log(t)
+    return t
+}
+ let q =plus(3,4)
+ console.log()
+function sub (t,u) {
+    let c=t-u
+    console.log(c)
+    return c
+}
+ let i=sub(4,2)
+let together=(q+mu-i)
+console.log(together)
+
